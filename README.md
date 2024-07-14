@@ -24,7 +24,7 @@ More about the metrics: https://huggingface.co/spaces/evaluate-metric/rouge
    Process of text cleaning.
 4. **Fine Tuning**
 
-   Fine tuning encoder decoder models for text summarization.
+   Fine tuning encoder decoder models for abstractive text summarization.
 
 ## Result
 
