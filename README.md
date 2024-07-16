@@ -34,4 +34,4 @@ More about the metrics: https://huggingface.co/spaces/evaluate-metric/rouge
 
 - BERT2BERT produce highest ROUGE metrics than BERT2GPT. This may be caused by the limitation of training data size, where only 3000 articles used for fine tuning. GPT generates text sequentially and relies on understanding long-range dependencies in text. It needs more data to train effectively as it must capture broader contexts and dependencies across longer sequences.
 
-- T5 produce lower ROUGE than BERT encoder and its decoder pair. This may be caused by how well the original fine tuned model created before (the ROUGE-1 of the original model only reach 0.0287 when evaluated with test data).
+- T5 produce lower ROUGE than BERT encoder and its decoder pair. This may be caused by how well the original fine tuned model created before (the ROUGE-1 of the T5 model before fine tuned only reach 0.0287 when evaluated with test data).
